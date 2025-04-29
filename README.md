@@ -35,21 +35,22 @@ This system allows users to:
 - Sort results by minimum layovers or distance
 - View available destination airports
 
-## Technologies Used
-- Python
+## Dependencies
 - Numpy
-- Math
-- Data Structures: Hash Tables, Graphs (Adjacency Lists), Heaps, Linked Lists, Stacks, Queues
+
+## Data Structures built by me (without libraries)
+- Hash Tables, Graphs, Heaps, Linked Lists, Stacks, Queues
 
 ## How to Run
-1. Ensure all required files are in your working directory:
+1. `pip install -r requirements.txt`
+2. Ensure all required files are in your working directory:
     - `DriverCode.py`
     - Supporting classes: `GraphClass.py`, `HashClass.py`, `HeapClass.py`, etc.
     - CSV files: `SIMPLEAirportTestData.csv`, `AirportDataTest.csv`, etc.
-2. Open and run `DriverCode.py`.
-3. Follow the menus to insert data, search routes, or perform admin tasks.
+3. Open and run `DriverCode.py`.
+4. Follow the menus to insert data, search routes, or perform admin tasks.
 
-## Additional Features
+## Additional Features ("Additional Marks" folder)
 - Performance testing scripts for Merge Sort, Quick Sort, Heap Sort
 - Bash script (`input.sh`) for automated sorting tests
 - Graphical output of algorithm performance comparisons
